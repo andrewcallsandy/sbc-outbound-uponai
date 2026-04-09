@@ -1,9 +1,9 @@
 {
   "name": "sbc-outbound",
-  "version": "0.9.5",
+  "version": "0.9.6",
   "main": "app.js",
   "engines": {
-    "node": ">= 18.0.0"
+    "node": ">= 20.0.0"
   },
   "keywords": [
     "sip",
@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@babel/helpers": "^7.26.10",
-    "@jambonz/db-helpers": "^0.9.12",
+    "@jambonz/db-helpers": "^0.9.18",
     "@jambonz/http-health-check": "^0.0.1",
     "@jambonz/mw-registrar": "0.2.7",
     "@jambonz/realtimedb-helpers": "^0.8.13",
@@ -37,18 +37,18 @@
     "@jambonz/stats-collector": "^0.1.10",
     "@jambonz/time-series": "^0.2.10",
     "cidr-matcher": "^2.1.1",
-    "debug": "^4.3.4",
+    "debug": "^4.4.3",
     "drachtio-fn-b2b-sugar": "^0.2.1",
-    "drachtio-srf": "^5.0.12",
-    "express": "^4.19.2",
-    "pino": "^8.20.0",
+    "drachtio-srf": "^5.0.20",
+    "express": "^4.21.2",
+    "pino": "^10.1.0",
     "sdp-transform": "^2.15.0"
   },
   "devDependencies": {
     "bent": "^7.3.12",
-    "eslint": "^7.32.0",
-    "eslint-plugin-promise": "^6.1.1",
-    "nyc": "^15.1.0",
-    "tape": "^5.7.5"
+    "eslint": "^9.17.0",
+    "eslint-plugin-promise": "^7.2.1",
+    "nyc": "^17.1.0",
+    "tape": "^5.9.0"
   }
 }
